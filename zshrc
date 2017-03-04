@@ -83,3 +83,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+export JAVA_HOME="`/usr/libexec/java_home -v`"
+export PATH=$PATH:$JAVA_HOME/bin
