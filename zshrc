@@ -96,3 +96,7 @@ if (( $+commands[rbenv] )); then
   eval "$(rbenv init -)"
 fi
 
+# Hide "user@hostname" from prompt
+DEFAULT_USER=$USER
+prompt_context(){}
+
