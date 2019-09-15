@@ -91,3 +91,5 @@ if (( $+commands[rbenv] )); then
   eval "$(rbenv init -)"
 fi
 
+source $HOME/.zsh-functions
+

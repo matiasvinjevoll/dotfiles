@@ -1,0 +1,12 @@
+setjdk() {
+  echo "Available versions:"
+  /usr/libexec/java_home -V
+  
+  echo ""
+  export JAVA_HOME=`/usr/libexec/java_home -v $1`
+  
+  echo ""
+  echo "Verison set to:"
+  java -version
+}
+
